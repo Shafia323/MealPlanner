@@ -1,3 +1,4 @@
+package meta;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -14,7 +15,7 @@ public class MainElementApp {
     }
 
     private void loadMeals() {
-        // Try to load from file, fall back to sample data
+        //a Try to load from file, fall back to sample data
         try {
             loadMealsFromFile();
             System.out.println("✅ Loaded " + meals.size() + " meals from database");

@@ -1,3 +1,4 @@
+package meta;
 public class Meal {
     private int id;
     private String name;

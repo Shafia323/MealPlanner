@@ -1,3 +1,4 @@
+package meta;
 public class QuickSort {
 
     public static void sortByCost(Meal[] meals) {
